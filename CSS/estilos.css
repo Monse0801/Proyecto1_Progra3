@@ -1,0 +1,78 @@
+﻿@font-face {
+    font-family: 'Calculator';
+    src: url('Font/Calculator.ttf') format('truetype');
+    /* Otros atributos de la fuente si son necesarios */
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: 'Calculator', sans-serif;
+    width: 422px;
+    height: 423px;
+    /* Otros estilos necesarios */
+}
+
+/* Estilos para la etiqueta "Pantalla_" */
+.Pantalla {
+    color: green;
+    text-align: center;
+    font-family: 'Calculator', sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    width: 409px;
+    height: 50px;
+    background-color: black;
+}
+
+/* Estilos generales para la tabla y sus elementos */
+.Tabla_Calculadora {
+    background-color: lightsteelblue;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000;
+    /* Otros estilos necesarios */
+}
+
+    .Tabla_Calculadora tr {
+        height: 60px;
+    }
+
+    .Tabla_Calculadora td {
+        text-align: center;
+        padding: 5px;
+        width: 79px;
+        /* Otros estilos necesarios */
+    }
+
+    /* Estilos para los botones */
+    .Tabla_Calculadora .btn {
+        width: 100%;
+        height: 100%;
+        background-color: #F4F4F4;
+        font-size: 16px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        /* Otros estilos necesarios */
+    }
+
+    /* Estilos para botones específicos */
+    .Tabla_Calculadora .Btn_igual {
+        background-color: #0066CC;
+        color: #FFF;
+        border-radius: 10px;
+        /* Otros estilos necesarios */
+    }
+
+    .Tabla_Calculadora .Btn_numero,
+    .Tabla_Calculadora .Btn_resta,
+    .Tabla_Calculadora .Btn_suma {
+        background-color: #F4F4F4;
+        border-radius: 10px;
+    }
+
+    /* Clase común para el estilo del texto en botones */
+    .Tabla_Calculadora .btn {
+        font-size: 16px;
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
